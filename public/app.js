@@ -48,8 +48,6 @@ form.addEventListener('submit', (e) => {
         sex: form.sex.value,
         age: form.age.value
     });
-    form.name.value = '';
-    form.sex.value = '';
-    form.age.value = '';
+    location.reload();
 });
 //
