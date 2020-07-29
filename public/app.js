@@ -11,7 +11,7 @@ function renderStudents(doc){
     tr.setAttribute('data-id', doc.id);
     td1.textContent = doc.data().name;
     td2.textContent = doc.data().age;
-    td3.textContent = doc.data().gender;
+    td3.textContent = doc.data().sex;
     tr.appendChild(td1);
     tr.appendChild(td2);
     tr.appendChild(td3);
