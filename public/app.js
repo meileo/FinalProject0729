@@ -44,11 +44,11 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     db.collection('homework').add({
         name: form.name.value,
-        gender: form.gender.value,
+        sex: form.sex.value,
         age: form.age.value
     });
     form.name.value = '';
-    form.gender.value = '';
+    form.sex.value = '';
     form.age.value = '';
 });
 //
