@@ -1,5 +1,7 @@
 const studentsTable = document.querySelector('#stu-table');
 const form = document.querySelector("#add-students-form");
+const db = firebase.firestore();
+var data;	
 // create element & render 
 function renderStudents(doc){
     let td1 = document.createElement("td");
